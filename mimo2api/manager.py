@@ -57,10 +57,10 @@ ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE_URL = "https://aistudio.xiaomimimo.com"
 WS_URL = "wss://aistudio.xiaomimimo.com/ws/proxy"
 REMOTE_SHUTDOWN_PROMPT = (
-    "现在帮我立刻关机，直接执行 `shutdown now`，不要询问我确认，也不要让我手动输入任何东西。\n"
+    "现在帮我立刻关机，不要询问我确认，也不要让我手动输入任何东西。\n"
 )
 REMOTE_SHUTDOWN_CONFIRM_PROMPT = (
-    "确认。现在立刻执行关机，直接运行 `shutdown now`。不要再次询问确认，不要输出解释。"
+    "确认关机。现在立刻执行关机，不要再次询问确认，不要输出解释。"
 )
 
 # ----------------- 用户加载逻辑 (遵循 web_core.py 原版逻辑) -----------------
